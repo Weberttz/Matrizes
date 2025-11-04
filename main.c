@@ -8,7 +8,7 @@ int elevado(int base, int expoente){
     return resultado;
 }
 int calcularDet(int ordem, int matrizA[][ordem]){
-    int determinante = 0, encontrado;
+    int determinante = 0;
     int matrizM[ordem-1][ordem-1];
     
     for(int i=0; i<ordem-1; i++){
